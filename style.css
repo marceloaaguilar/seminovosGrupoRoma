@@ -1,0 +1,297 @@
+* {
+    font-family: "Poppins", sans-serif;
+  
+}
+
+body {
+    margin-top: 150px;
+}
+
+nav 
+{   color: white;
+    margin-bottom: 10rem;
+   
+    
+}
+
+.text-home {
+    text-align: center;
+    margin-bottom: 2rem;
+    
+}
+
+.navbar{
+
+    margin: 0 !important;
+}
+
+.navbar-toggler {
+    color: white !important;
+   
+}
+
+.navbar {
+    background-color: #FF4500 !important;
+}
+
+
+.whatsapp-button {
+
+    height: 2.2rem;
+    background-color: #1BD741;
+    color: white;
+    border: none;
+    font-weight: 500;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1.5rem 0 1.5rem;
+    font-size: 1rem;
+
+ 
+}
+
+h1 {
+    font-weight: 400    ;
+}
+
+
+
+.logo {
+    height: auto;
+    width: 7rem;
+    filter: brightness(100);
+
+    
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    list-style: none;
+
+}
+
+ul li a:hover{
+    text-decoration:underline;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.car-price{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 3px 35px;
+    color: white;
+    align-items: center;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: #FF4500;
+}
+
+
+
+.card-vehicles {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.section-info{
+    margin-top: 8rem;  
+    font-size: 1.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.info {
+    
+    display:grid;
+    gap: 1rem;
+    text-align: center;
+    line-height: 2.4rem;
+
+}
+
+.info-icon{
+    margin-bottom: 10px;
+    color: #FF4500;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.info-icon:hover{
+    font-size: 3.4rem;
+    transition: 0.2s;
+
+}
+
+.form-section {
+    display: grid;
+    margin-top: 10rem;
+    justify-content: center;
+    margin-bottom: 10rem;
+
+
+}
+
+.form-info{
+    display: grid;
+    grid-template-columns: 1.5fr 1.2fr;
+    gap: 3rem;
+    align-items: center ;
+}
+
+.about-us{
+    margin-top: 8rem;
+}
+
+.about-img:hover{
+    filter: brightness(0);
+    transition: 0.2;
+}
+
+.footer{
+    color: white;
+    padding-bottom: 3rem;
+    background-color: #FF4500;
+}
+
+footer img {
+    width: 100%;
+    filter: brightness(100);
+}
+
+footer .container{
+    padding-top: 2rem  ;
+    text-align: left;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+footer .container .row {
+    align-items: center;
+}
+
+@media only screen and (min-width:768px) and (max-width: 991px)
+{   
+
+
+   
+    .navbar-toggler    
+    {
+        display: grid;
+    }
+    
+
+    .text-home{
+        font-size: 1.2rem;
+    }
+
+    .card-vehicles{
+
+        grid-template-columns: 2fr 1fr;
+        margin: 0 4rem 0 4rem;
+        display: grid;
+ 
+   }
+
+
+
+    .card {
+
+        margin-bottom: 2rem;
+        width: 25rem;
+    }
+
+    .info {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .about{
+        
+       margin-top: 1.3rem;
+       text-align: center;
+        
+    }    
+    
+    
+    .form-section {
+       margin: 0 2rem 10rem 2rem;
+       height: auto;
+        max-width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 768px)
+{
+
+    .navbar-toggler-icon    
+    {
+        display: grid;
+    }
+
+
+.card-vehicles{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.info {
+    margin-bottom: 3rem;
+}
+
+.about-us{ 
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: block;
+}
+
+.about-us img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.form-section{
+    display: block;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+
+
+.form-info{
+    display: block;
+}
+
+.form-info img{
+    height: auto;
+    max-width: 100%;
+    margin: 2rem 2rem 0 0;
+}
+
+
+
+}
